@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="7.848">
+    <testcase classname="To test secure checkout" name="Check if user is able add items in the basket" time="7.324">
+        <failure message="Cannot invoke &quot;org.openqa.selenium.WebDriver.navigate()&quot; because &quot;this.driver&quot; is null" type="java.lang.NullPointerException"><![CDATA[Given I open the browser....................................................passed
+And I am on Belazu website..................................................failed
+When I enter text in the search box.........................................skipped
+And I click Enter...........................................................skipped
+And I select an item........................................................skipped
+And I Add item to the bag...................................................skipped
+And I click View bag and checkout...........................................skipped
+And I click on Guest checkout...............................................skipped
+Then I should be navigated to the Secure checkout Screen....................skipped
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.navigate()" because "this.driver" is null
+	at stepDefinations.stepDefination.i_am_on_belazu_website(stepDefination.java:36)
+	at ✽.I am on Belazu website(file:///C:/Users/Smita/Desktop/Smita%20Folder/Eclipse%20workspace/Automating/src/test/java/features/checkout.feature:8)
+]]></failure>
+    </testcase>
+</testsuite>
